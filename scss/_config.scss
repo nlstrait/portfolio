@@ -1,0 +1,20 @@
+// Variables
+$website-width: 1280px;
+
+$main-color: #E5DA00;
+$alt-color: #0892D0;
+$light-color: #f4f4f4;
+$medium-color: #CEBECC;
+$dark-color: #1D2B3D;
+
+$primary-font-family: 'Dosis', sans-serif;
+
+$bg-image: url('../img/showcase.jpg');
+
+@function contrast($color) {
+    @if(lightness($color) > 50) {
+        @return #000;
+    } @else {
+        @return #fff;
+    }
+}
