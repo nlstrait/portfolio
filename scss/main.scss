@@ -118,12 +118,17 @@ img {
 
     // Home Section B
     &-b {
+        // margin: auto;
+        padding: 0 1rem;
+
         .stats {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             border-radius: 50px;
             background-image: linear-gradient(90deg, $main-color 0%, $alt-color 100%);
-            margin: 1rem;
+            // margin: 1rem;
+            // width: 100%;
+            // padding: 4rem;
 
             li {
                 line-height: 1.5;
